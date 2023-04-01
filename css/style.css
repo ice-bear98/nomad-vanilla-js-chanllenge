@@ -1,1 +1,6 @@
 @import "./reset.css";
+@import "./login.css";
+
+.hidden {
+  display: none;
+}
