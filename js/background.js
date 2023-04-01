@@ -1,9 +1,3 @@
-// 실시간 시계
-
-// 로컬 스토리지를 사용한 로그인
-
-// 로컬 스토리지를 사용한 투두리스트
-
 const images = [
   "background1.jpeg",
   "background2.jpg",
@@ -22,5 +16,3 @@ document.body.style = ` background: url(
 "/img/${randomImage}") no-repeat center fixed;
 background-size: cover;
 `;
-
-// 날씨와 위치 (geolocation)

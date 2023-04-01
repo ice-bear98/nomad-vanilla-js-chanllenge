@@ -6,7 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iceBear Todo Page</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <script defer src="./js/background.js"></script>
+    <script defer src="js/login.js"></script>
+    <script defer src="js/background.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="login-container">
+      <div class="login-title">
+        <h1>create Id/password and login</h1>
+      </div>
+      <form id="login-form">
+        <h2>Login</h2>
+        <input type="text" placeholder="ID" id="login" required />
+        <input type="password" placeholder="Password" id="password" required />
+        <button id="submit-login">Log In</button>
+      </form>
+      <form id="create">
+        <h2>create-ID</h2>
+        <input type="text" placeholder="ID" id="create-id" required />
+        <input
+          type="password"
+          placeholder="Password"
+          id="create-password"
+          required
+        />
+        <button id="submit-create">create</button>
+      </form>
+      <form class="clear-button">
+        <input type="submit" value="LS-cleaner" />
+      </form>
+    </div>
+
+    <div class="todo-container hidden">
+      <div id="clock">
+        <span>00.00.00</span>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/e0f0df1559.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
