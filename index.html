@@ -7,10 +7,11 @@
     <title>iceBear Todo Page</title>
     <link rel="stylesheet" href="./css/style.css" />
     <script defer src="js/login.js"></script>
+    <script defer src="js/clock.js"></script>
     <script defer src="js/background.js"></script>
   </head>
   <body>
-    <div class="login-container">
+    <div class="login-container hidden">
       <div class="login-title">
         <h1>create Id/password and login</h1>
       </div>
@@ -36,9 +37,10 @@
       </form>
     </div>
 
-    <div class="todo-container hidden">
+    <div class="todo-container">
       <div id="clock">
-        <span>00.00.00</span>
+        <span></span>
+        <span></span>
       </div>
     </div>
     <script
