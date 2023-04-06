@@ -18,7 +18,6 @@ function getDay() {
   const month = date.getMonth();
   const day = date.getDate();
   today.innerText = `${year}.${month + 1}.${day}`;
-  console.log(month);
 }
 
 getDay();

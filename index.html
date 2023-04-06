@@ -9,6 +9,7 @@
     <script defer src="js/login.js"></script>
     <script defer src="js/clock.js"></script>
     <script defer src="js/background.js"></script>
+    <script defer src="js/todo.js"></script>
   </head>
   <body>
     <div class="login-container hidden">
@@ -37,11 +38,18 @@
       </form>
     </div>
 
+    <div id="clock">
+      <span></span>
+      <span></span>
+    </div>
+
     <div class="todo-container">
-      <div id="clock">
-        <span></span>
-        <span></span>
-      </div>
+      <div class="todo-title">오늘의 할일</div>
+      <form class="input">
+        <input id="inputfield" type="text" />
+        <button id="addtodo">+</button>
+      </form>
+      <div id="todo-lists"></div>
     </div>
     <script
       src="https://kit.fontawesome.com/e0f0df1559.js"
